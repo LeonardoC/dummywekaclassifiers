@@ -4,6 +4,9 @@ import weka.classifiers.AbstractClassifier;
 import weka.core.Instance;
 import weka.core.Instances;
 
+/*
+ *  A classifier that always classifies an instance with the first class.
+ */
 public class FirstClassClassifier extends AbstractClassifier {
 
     @Override

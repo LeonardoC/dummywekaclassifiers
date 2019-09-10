@@ -5,6 +5,9 @@ import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.OptionMetadata;
 
+/*
+ *  A classifier that always classifies an instance with a user selected class.
+ */
 public class SelectedClassClassifier extends AbstractClassifier {
 
     private int selectedClass = 0;
