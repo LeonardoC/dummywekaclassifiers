@@ -1,0 +1,45 @@
+# Template Description file for a Weka package
+
+# Package name (required)
+PackageName=DummyClassifiers
+
+# Version (required)
+Version=1.0.0
+
+#Date (year-month-day)
+Date=2019-09-10
+
+# Title (required)
+Title=DummyClassifiers
+
+# Category (recommended)
+Category=Classification
+
+# Author (required)
+Author=Leonardo Cañete <leonardo.c@tec.mx>
+
+# Maintainer (required)
+Maintainer=Leo <leonardo.c@tec.mx>
+
+# License (required)
+License=GPL 2.0|Mozilla
+
+# Description (required)
+Description= Dummy Weka classifiers
+# Changes and/or bug fixes in this package (optional)
+#Changes=Fixed a serious bug that affected overall coolness of the Funky Classifier
+
+# Package URL for obtaining the package archive (required)
+#PackageURL=https://sites.google.com/view/leocanetesifuentes/software/multivariate-pbc4cip
+
+# URL for further information
+#URL=http://somewhere.net/funkyResearchInfo.html
+
+# Enhances various other packages?
+#Enhances=packageName1,packageName2,...
+
+# Related to other packages?
+#Related=packageName1,packageName2,...
+
+# Dependencies (required; format: packageName (equality/inequality version_number)
+Depends=weka (>=3.7.1)
