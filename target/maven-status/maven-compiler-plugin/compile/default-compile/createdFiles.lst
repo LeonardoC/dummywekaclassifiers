@@ -1,5 +1,7 @@
 myclassifiers\UniformClassifier.class
 weka\classifiers\trees\SelectedClassClassifier.class
 weka\classifiers\trees\RandomClassClassifier.class
-weka\classifiers\trees\WrapperClassifier.class
+weka\classifiers\trees\WrapperDistributionClassifier.class
+weka\classifiers\trees\WrapperUniformClassifier.class
+myclassifiers\DistributionClassifier.class
 weka\classifiers\trees\FirstClassClassifier.class
